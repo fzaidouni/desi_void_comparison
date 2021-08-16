@@ -6,10 +6,10 @@ from scipy.integrate import trapz, cumtrapz
 from scipy.interpolate import PchipInterpolator
 from scipy.special import gammaln
 from scipy.optimize import minimize
-import numdifftools as ndt
+# import numdifftools as ndt
 from astropy.io import ascii
-import dynesty
-from dynesty import plotting as dyplot
+# import dynesty
+# from dynesty import plotting as dyplot
 import pickle
     
 def remove_nan(array):
